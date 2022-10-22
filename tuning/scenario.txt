@@ -1,0 +1,5 @@
+parameterFile = "parameters.txt"
+trainInstancesDir = "../instances"
+maxExperiments = 300
+targetRunner = "../src/main.py"
+digits = 2

@@ -1,0 +1,226 @@
+# 2022-10-21 09:42:25 -03: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 4
+# minNbSurvival: 4
+# nbParameters: 5
+# seed: 235687731
+# confidence level: 0.95
+# budget: 300
+# mu: 5
+# deterministic: FALSE
+
+# 2022-10-21 09:42:25 -03: Iteration 1 of 4
+# experimentsUsedSoFar: 0
+# remainingBudget: 300
+# currentBudget: 75
+# nbConfigurations: 12
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          1|         12|          8|    1917.000000|         12|00:00:06|   NA|  NA|    NA|
+|x|          2|         12|         10|    2382.000000|         24|00:00:07|-0.02|0.49|0.8856|
+|x|          3|         12|         10|    2070.666667|         36|00:00:05|+0.00|0.33|0.8290|
+|x|          4|         12|         10|    2596.500000|         48|00:00:07|+0.12|0.34|0.7522|
+|-|          5|          3|         10|    2802.400000|         60|00:00:07|+0.35|0.48|0.4256|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          10    mean value:     2802.400000
+Description of the best-so-far configuration:
+   .ID. alpha beta gama samax t0 .PARENT.
+10   10  0.98 1.25 0.95  5000 10       NA
+
+# 2022-10-21 09:42:59 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+10  0.98 1.25 0.95  5000 10
+1   0.95    1 1.00  1000 20
+2   0.94  1.5 0.97  7500 50
+# 2022-10-21 09:42:59 -03: Iteration 2 of 4
+# experimentsUsedSoFar: 60
+# remainingBudget: 240
+# currentBudget: 80
+# nbConfigurations: 13
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|          6|         13|         14|    1406.000000|         13|00:00:06|   NA|  NA|    NA|
+|x|          1|         13|         18|    1664.500000|         23|00:00:05|+0.34|0.67|0.6791|
+|x|          3|         13|         14|    1581.333333|         33|00:00:05|+0.22|0.48|0.8486|
+|x|          5|         13|         14|    2092.500000|         43|00:00:05|+0.35|0.51|0.7456|
+|-|          4|          9|         10|    2515.200000|         53|00:00:06|+0.17|0.33|0.8137|
+|=|          2|          9|         10|    2570.500000|         59|00:00:03|+0.08|0.23|0.8507|
+|-|          7|          6|         21|    2780.142857|         68|00:00:06|-0.07|0.08|0.8695|
+|=|          8|          6|         14|    2700.875000|         74|00:00:03|-0.07|0.06|0.8936|
+|=|          9|          6|         21|    2557.777778|         80|00:00:03|-0.04|0.08|0.8588|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          21    mean value:     2557.777778
+Description of the best-so-far configuration:
+   .ID. alpha beta gama samax t0 .PARENT.
+21   21  0.99    1 0.99  5000 50        1
+
+# 2022-10-21 09:43:45 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+21  0.99    1 0.99  5000 50
+19  0.98 1.25 0.98  1000 30
+10  0.98 1.25 0.95  5000 10
+14  0.98 1.25 0.99 10000 50
+# 2022-10-21 09:43:45 -03: Iteration 3 of 4
+# experimentsUsedSoFar: 140
+# remainingBudget: 160
+# currentBudget: 80
+# nbConfigurations: 11
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|         10|         11|         14|    1613.000000|         11|00:00:05|   NA|  NA|    NA|
+|x|          4|         11|         21|    2905.500000|         18|00:00:04|+0.41|0.71|0.6543|
+|x|          1|         11|         21|    2576.333333|         25|00:00:03|+0.22|0.48|0.6778|
+|x|          6|         11|         14|    2297.250000|         32|00:00:03|+0.20|0.40|0.6893|
+|=|          2|         11|         21|    2427.200000|         39|00:00:04|+0.08|0.27|0.8221|
+|-|          5|          8|         21|    2627.000000|         46|00:00:03|-0.05|0.13|0.8884|
+|=|          8|          8|         21|    2541.714286|         50|00:00:01|-0.01|0.14|0.8444|
+|=|          3|          8|         14|    2371.875000|         54|00:00:01|-0.01|0.12|0.8470|
+|=|          7|          8|         21|    2599.111111|         58|00:00:02|+0.05|0.15|0.7963|
+|=|          9|          8|         21|    2492.100000|         62|00:00:02|+0.06|0.15|0.7831|
+|=|         11|          8|         19|    2616.545455|         70|00:00:05|+0.06|0.15|0.7900|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          19    mean value:     2616.545455
+Description of the best-so-far configuration:
+   .ID. alpha beta gama samax t0 .PARENT.
+19   19  0.98 1.25 0.98  1000 30       10
+
+# 2022-10-21 09:44:23 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+19  0.98 1.25 0.98  1000 30
+21  0.99    1 0.99  5000 50
+10  0.98 1.25 0.95  5000 10
+14  0.98 1.25 0.99 10000 50
+# 2022-10-21 09:44:23 -03: Iteration 4 of 4
+# experimentsUsedSoFar: 210
+# remainingBudget: 90
+# currentBudget: 90
+# nbConfigurations: 11
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|         12|         11|         21|    3886.000000|         11|00:00:07|   NA|  NA|    NA|
+|x|          5|         11|         33|    3894.000000|         18|00:00:04|+0.70|0.85|0.3804|
+|x|          9|         11|         33|    3024.333333|         25|00:00:03|+0.33|0.55|0.5089|
+|x|          4|         11|         21|    3237.750000|         32|00:00:04|+0.37|0.53|0.4904|
+|-|         10|          6|         21|    2970.400000|         39|00:00:03|-0.03|0.17|0.8425|
+|=|          1|          6|         21|    2795.000000|         41|00:00:01|-0.01|0.16|0.8448|
+|=|         11|          6|         21|    2975.285714|         43|00:00:01|-0.03|0.11|0.8571|
+|=|          6|          6|         21|    2801.875000|         45|00:00:01|-0.07|0.07|0.8821|
+|=|          8|          6|         14|    2765.666667|         47|00:00:01|-0.08|0.04|0.8937|
+|=|          2|          6|         21|    2726.400000|         49|00:00:01|-0.06|0.04|0.8850|
+|=|          7|          6|         21|    2856.000000|         51|00:00:01|-0.04|0.06|0.8510|
+|=|          3|          6|         21|    2738.666667|         53|00:00:01|-0.02|0.07|0.8297|
+|=|         13|          6|         21|    2625.076923|         59|00:00:03|+0.02|0.10|0.8022|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          21    mean value:     2625.076923
+Description of the best-so-far configuration:
+   .ID. alpha beta gama samax t0 .PARENT.
+21   21  0.99    1 0.99  5000 50        1
+
+# 2022-10-21 09:44:59 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+21  0.99    1 0.99  5000 50
+19  0.98 1.25 0.98  1000 30
+14  0.98 1.25 0.99 10000 50
+10  0.98 1.25 0.95  5000 10
+# 2022-10-21 09:44:59 -03: Iteration 5 of 5
+# experimentsUsedSoFar: 269
+# remainingBudget: 31
+# currentBudget: 31
+# nbConfigurations: 5
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . All alive configurations are elite and nothing is discarded
+
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|      Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+|x|         14|          5|         21|    1942.000000|          5|00:00:02|   NA|  NA|    NA|
+|x|          4|          5|         21|    2926.000000|          6|00:00:00|+0.15|0.58|0.5462|
+|x|          7|          5|         21|    3334.666667|          7|00:00:00|+0.37|0.58|0.4870|
+|x|          8|          5|         21|    3008.500000|          8|00:00:00|-0.08|0.19|0.7916|
+|=|          9|          5|         21|    2712.600000|          9|00:00:00|+0.02|0.22|0.7116|
+|=|          2|          5|         21|    2730.333333|         10|00:00:00|+0.11|0.26|0.6674|
+|=|          3|          5|         21|    2547.142857|         11|00:00:00|+0.04|0.18|0.7171|
+|=|         10|          5|         21|    2466.375000|         12|00:00:00|+0.02|0.14|0.7806|
+|=|          5|          5|         21|    2595.222222|         13|00:00:00|+0.01|0.12|0.7873|
+|=|          1|          5|         21|    2527.500000|         14|00:00:00|+0.01|0.11|0.7686|
+|=|          6|          5|         21|    2442.090909|         15|00:00:00|-0.00|0.09|0.7630|
+|=|         11|          5|         21|    2576.666667|         16|00:00:00|+0.01|0.09|0.7676|
+|=|         13|          5|         21|    2475.538462|         17|00:00:00|+0.04|0.11|0.7467|
+|=|         12|          5|         21|    2576.285714|         18|00:00:00|+0.03|0.10|0.7459|
+|=|         15|          5|         21|    2531.533333|         23|00:00:02|+0.02|0.08|0.7605|
++-+-----------+-----------+-----------+---------------+-----------+--------+-----+----+------+
+Best-so-far configuration:          21    mean value:     2531.533333
+Description of the best-so-far configuration:
+   .ID. alpha beta gama samax t0 .PARENT.
+21   21  0.99    1 0.99  5000 50        1
+
+# 2022-10-21 09:45:11 -03: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+21  0.99    1 0.99  5000 50
+19  0.98 1.25 0.98  1000 30
+10  0.98 1.25 0.95  5000 10
+14  0.98 1.25 0.99 10000 50
+# 2022-10-21 09:45:11 -03: Stopped because there is not enough budget left to race more than the minimum (4)
+# You may either increase the budget or set 'minNbSurvival' to a lower value
+# Iteration: 6
+# nbIterations: 6
+# experimentsUsedSoFar: 292
+# timeUsed: 0
+# remainingBudget: 8
+# currentBudget: 8
+# number of elites: 4
+# nbConfigurations: 4
+# Best configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+   alpha beta gama samax t0
+21  0.99    1 0.99  5000 50
+19  0.98 1.25 0.98  1000 30
+10  0.98 1.25 0.95  5000 10
+14  0.98 1.25 0.99 10000 50
+# Best configurations as commandlines (first number is the configuration ID; same order as above):
+21  -alpha 0.99 -beta 1 -gama 0.99 -samax 5000 -t0 50
+19  -alpha 0.98 -beta 1.25 -gama 0.98 -samax 1000 -t0 30
+10  -alpha 0.98 -beta 1.25 -gama 0.95 -samax 5000 -t0 10
+14  -alpha 0.98 -beta 1.25 -gama 0.99 -samax 10000 -t0 50

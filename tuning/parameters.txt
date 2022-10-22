@@ -1,0 +1,6 @@
+# name      switch     type    values
+alpha       "-alpha "  r       (0.8, 0.99)
+beta        "-beta "   c       (1, 1.25, 1.5, 1.75, 2)
+gama        "-gama "   r       (0.95, 1.00)
+samax       "-samax "  c       (1000, 2500, 5000, 7500, 10000)
+t0          "-t0 "     c       (10, 20, 30, 40, 50)
